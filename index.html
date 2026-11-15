@@ -50,6 +50,8 @@ body.t-d{margin:0;min-height:100vh;font-family:Lora,Georgia,serif;color:var(--te
 .vd .tags{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
 .vd .tag{font-size:.78rem;border-radius:999px;padding:2px 10px;background:var(--green);color:#fff}
 .vd .tag.abv{background:#c8102e}
+.vd .tag.lim{background:#8a5a00}
+.vd .tag.many{background:#1e7a45}
 .vd .note{color:var(--muted);font-size:.92rem;margin:6px 0 0}
 .vd .drink.empty{opacity:.55}
 .vd .drink.empty::after{content:"AUSGETRUNKEN";position:absolute;top:26px;right:-34px;transform:rotate(35deg);background:#c8102e;color:#fff;font-size:.7rem;font-weight:600;padding:3px 40px;letter-spacing:.08em}
@@ -178,11 +180,10 @@ body.t-f{margin:0;min-height:100vh;font-family:"Patrick Hand","Comic Sans MS",cu
 @media (prefers-reduced-motion:reduce){.vh .sleigh{animation:none;transform:translateX(30vw)}.vh .sleigh svg,.vh .sky::before,.vh .sky::after{animation:none}}
 .vh .ph[hidden],.vh .invite img[hidden]{display:none}
 </style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style>
-<style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%8E%84%3C/text%3E%3C/svg%3E">
-</head>
+<style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style><style>artifact-sync,artifact-local{display:contents}</style></head>
 <body class="t-d">
 <div id="snow"></div>
-<div class="tabs" id="tabs" hidden=""><button data-t="h" aria-pressed="false">🏠 Start</button><button data-t="d" aria-pressed="false">🍷 Getränke</button><button data-t="f" aria-pressed="true">🍪 Speisen</button></div>
+<div class="tabs" id="tabs" hidden=""><button data-t="h" aria-pressed="false">🏠 Start</button><button data-t="d" aria-pressed="true">🍷 Getränke</button><button data-t="f" aria-pressed="false">🍪 Speisen</button></div>
 <div id="app-h" class="vh">
 <div class="sky"><div class="moon"></div><div class="sleigh"><svg viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><g id="rd" fill="#f3e3bf" stroke="#f3e3bf" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="30" cy="26" rx="18" ry="8.5" stroke="none"></ellipse><path d="M16 22 L5 8 L12 5 L24 21 Z" stroke="none"></path><ellipse cx="4" cy="8" rx="6.5" ry="3.8" transform="rotate(-20 4 8)" stroke="none"></ellipse><path d="M7 4 L10 -5 M9.5 -1 L4 -5 M10 -5 L14 -9 M10 -5 L7 -10" fill="none" stroke-width="1.6"></path><path d="M19 32 L7 40 M23 33 L13 44 M41 32 L54 39 M37 33 L50 44" fill="none" stroke-width="3"></path><path d="M47 22 L53 17" fill="none" stroke-width="3"></path></g></defs>
 <path d="M206 40 L9 30" stroke="#f6c85f" stroke-width=".8" opacity=".7" fill="none"></path>
@@ -196,7 +197,7 @@ body.t-f{margin:0;min-height:100vh;font-family:"Patrick Hand","Comic Sans MS",cu
 <footer>🎅 Wir freuen uns auf euch! Ho ho ho 🎄</footer></div></div>
 <div id="app-d" class="vd" hidden=""></div>
 <div id="app-f" class="vf" hidden=""></div>
-<script id="data-d" type="application/json">{"drinks":[{"id":"s1","name":"Glühwein","cat":"wein","sorte":"Glühwein","abv":"9","note":"Heiß, würzig und weihnachtlich – mit Zimt, Nelken und Orange","empty":false},{"id":"dmwgs5h9wdi6","name":"Lumumba","cat":"sonst","sorte":"Heißgetränk","abv":"","note":"Heißer Kakao mit Rum – wärmt von innen","empty":false},{"id":"dmwgs8m4b2jb","name":"Kaffee","cat":"alk","sorte":"Heißgetränk","abv":"","note":"Frisch gebrüht – der Wachmacher nach dem Festessen","empty":false},{"id":"dmwgs8rpd37u","name":"Kakao","cat":"alk","sorte":"Heißgetränk","abv":"","note":"Heiß und cremig – gern mit Sahne und Marshmallows","empty":false},{"id":"dmwgs955xd25","name":"Amaretto","cat":"hart","sorte":"Likör","abv":"","note":"Italienischer Mandellikör – süß mit Marzipan-Aroma","empty":false},{"id":"dmwgs97sj0xe","name":"Rum","cat":"hart","sorte":"Rum","abv":"","note":"Kräftig und würzig – pur, mit Cola oder im Lumumba","empty":false},{"id":"dmwi6dnkbvlk","name":"Coca Cola","cat":"alk","sorte":"","abv":"","note":"","empty":false},{"id":"dmwi6e0313p7","name":"Coca Cola Zero","cat":"alk","sorte":"","abv":"","note":"","empty":false},{"id":"dmwi6eoyp4zt","name":"Sprudel-Wasser","cat":"alk","sorte":"","abv":"","note":"","empty":false},{"id":"dmwi6evexewv","name":"Still-Wasser","cat":"alk","sorte":"","abv":"","note":"","empty":false},{"id":"dmwi6g62shum","name":"Bitburger Stubbi","cat":"sonst","sorte":"","abv":"","note":"","empty":false}]}</script>
+<script id="data-d" type="application/json">{"drinks":[{"id":"s1","name":"Glühwein","cat":"wein","sorte":"Glühwein","abv":"9","note":"Heiß, würzig und weihnachtlich","empty":false},{"id":"dmwgs5h9wdi6","name":"Lumumba","cat":"sonst","sorte":"Heißgetränk","abv":"","note":"Heißer Kakao mit Rum – wärmt von innen","empty":false},{"id":"dmwgs8m4b2jb","name":"Kaffee","cat":"alk","sorte":"Heißgetränk","abv":"","note":"Frisch gebrüht – der Wachmacher nach dem Festessen","empty":false},{"id":"dmwgs8rpd37u","name":"Kakao","cat":"alk","sorte":"Heißgetränk","abv":"","note":"Heiß und cremig – gern mit Sahne und Marshmallows","empty":false},{"id":"dmwgs955xd25","name":"Amaretto","cat":"hart","sorte":"Likör","abv":"","note":"Italienischer Mandellikör – süß mit Marzipan-Aroma","empty":false},{"id":"dmwgs97sj0xe","name":"Rum","cat":"hart","sorte":"Rum","abv":"","note":"Kräftig und würzig – pur, mit Cola oder im Lumumba","empty":false},{"id":"dmwi6dnkbvlk","name":"Coca Cola","cat":"alk","sorte":"","abv":"","note":"","empty":false},{"id":"dmwi6e0313p7","name":"Coca Cola Zero","cat":"alk","sorte":"","abv":"","note":"","empty":false},{"id":"dmwi6eoyp4zt","name":"Sprudel-Wasser","cat":"alk","sorte":"","abv":"","note":"","empty":false},{"id":"dmwi6evexewv","name":"Still-Wasser","cat":"alk","sorte":"","abv":"","note":"","empty":false},{"id":"dmwi6vw1hrxy","name":"Bitburger Stubbi","cat":"sonst","sorte":"","abv":"","note":"","empty":false},{"id":"dmwi728btlvh","name":"Radler, musse selber mische","cat":"sonst","sorte":"","abv":"","note":"","empty":false},{"id":"dmwi72ngyvnc","name":"Drecksack, musse selber mische","cat":"sonst","sorte":"","abv":"","note":"","empty":false},{"id":"dmwi7376bu7r","name":"Diesel, musse selber mische","cat":"sonst","sorte":"","abv":"","note":"Nix für Autos","empty":false}]}</script>
 <script id="data-f" type="application/json">{"dishes":[{"id":"emwi6gv2gh35","name":"Bretzeln","cat":"vor","note":"","veg":false,"gone":false},{"id":"emwi6hxzo7az","name":"Erbsensuppe","cat":"haupt","note":"","veg":false,"gone":false},{"id":"emwi6ig8f6us","name":"Brötchen","cat":"beil","note":"","veg":false,"gone":false},{"id":"emwi6in7ej9t","name":"Sidewurst","cat":"beil","note":"","veg":false,"gone":false},{"id":"emwi6istmjly","name":"Mettwurst","cat":"beil","note":"","veg":false,"gone":false},{"id":"emwi6joqwvrq","name":"Heisse Waffeln","cat":"dess","note":"","veg":false,"gone":false},{"id":"emwi6kveo987","name":"Weihnachtsplätzchen","cat":"dess","note":"","veg":false,"gone":false}]}</script>
 <script>
 (function(){
@@ -246,7 +247,7 @@ function renderList(){
   if(!items.length){$('list').innerHTML='<div class="none" style="grid-column:1/-1">🎁 Hier ist nichts im Glas – Prost trotzdem!</div>';return;}
   $('list').innerHTML=items.map(function(d){
     return '<article class="card drink'+(d.empty?' empty':'')+'"><div class="em">'+emoji(d)+'</div><h3>'+esc(d.name)+'</h3><div class="tags"><span class="tag">'+CATS[d.cat]+'</span>'+
-    (d.sorte?'<span class="tag">'+esc(d.sorte)+'</span>':'')+(d.abv?'<span class="tag abv">'+esc(d.abv)+' % vol.</span>':'')+'</div>'+
+    (d.sorte?'<span class="tag">'+esc(d.sorte)+'</span>':'')+(d.abv?'<span class="tag abv">'+esc(d.abv)+' % vol.</span>':'')+(d.cat==='alk'?'':(/glühwein/i.test(d.name+' '+d.sorte)?'<span class="tag many">🔥 Davon gibt’s genug!</span>':'<span class="tag lim">⏳ Wenn weg, dann weg</span>'))+'</div>'+
     (d.note?'<p class="note">'+esc(unesc(d.note))+'</p>':'')+
     (isOwner?'<div class="tools"><button data-act="empty" data-id="'+esc(d.id)+'">'+(d.empty?'✓ Wieder da':'Ausgetrunken')+'</button><button data-act="del" data-id="'+esc(d.id)+'"'+(armed===d.id?' style="background:#c8102e;color:#fff;border-color:#c8102e"':'')+'>'+(armed===d.id?'Wirklich löschen?':'🗑 Löschen')+'</button></div>':'')+'</article>';}).join('');
 }
@@ -434,11 +435,6 @@ window.__publish=async function(pm){
   try{await art.publish('<!DOCTYPE html>\n'+doc.outerHTML);}
   catch(err){if(err&&err.code==='conflict')return;pm.textContent='Das hat leider nicht geklappt ('+((err&&err.code)||'Fehler')+').';}
 };
-if(window.claude&&claude.use){
-  claude.use('user').then(function(u){if(u&&(u.isOwner()||u.canEdit())){window.__D.owner();window.__F.owner();}}).catch(function(){});
-  claude.use('artifact').then(function(a){art=a;}).catch(function(){});
-  claude.use('downloads').then(function(d){window.__D.dl(d);window.__F.dl(d);}).catch(function(){});
-}
 })();
 </script>
 
